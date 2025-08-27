@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROZA</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-gray-800">ROZA</h1>
+    <nav class="space-x-6 text-gray-700">
+      <a href="#" class="hover:text-black">Home</a>
+      <a href="#shop" class="hover:text-black">Shop</a>
+      <a href="#about" class="hover:text-black">About</a>
+      <a href="#contact" class="hover:text-black">Contact</a>
+    </nav>
+    <button class="border p-2 rounded-full hover:bg-gray-200">
+      🛒
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-200 to-pink-200 p-16 text-center">
+    <h2 class="text-4xl font-extrabold text-gray-800 mb-4">New Arrivals 2025</h2>
+    <p class="text-gray-700 mb-6">Trendy collections just for you ✨</p>
+    <button class="px-6 py-3 bg-black text-white rounded-lg text-lg hover:bg-gray-800">
+      Shop Now
+    </button>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="shop" class="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div class="rounded-2xl shadow-md p-4 bg-white">
+      <img src="./dubai nighty.webp" alt="saree" class="rounded-xl mb-3">
+      <h3 class="font-semibold text-lg">nighty</h3>
+      <p class="text-gray-600">₹800</p>
+      <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800">Add to Cart</button>
+    </div>
+
+    <div class="rounded-2xl shadow-md p-4 bg-white">
+      <img src="https://www.elahe.in/cdn/shop/files/155_f457182e-f21d-47b6-a6da-3a65029579b6_2048x.png?v=1707735812" alt="saree" class="rounded-xl mb-3">
+      <h3 class="font-semibold text-lg">Product 1</h3>
+      <p class="text-gray-600">₹499</p>
+      <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800">Add to Cart</button>
+    </div>
+    <div class="rounded-2xl shadow-md p-4 bg-white">
+      <img src="https://www.elahe.in/cdn/shop/files/155_f457182e-f21d-47b6-a6da-3a65029579b6_2048x.png?v=1707735812" alt="saree" class="rounded-xl mb-3">
+      <h3 class="font-semibold text-lg">Product 2</h3>
+      <p class="text-gray-600">₹998</p>
+      <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800">Add to Cart</button>
+    </div>
+
+    <div class="rounded-2xl shadow-md p-4 bg-white">
+      <img src="https://www.elahe.in/cdn/shop/files/155_f457182e-f21d-47b6-a6da-3a65029579b6_2048x.png?v=1707735812" alt="saree" class="rounded-xl mb-3">
+      <h3 class="font-semibold text-lg">Product 3</h3>
+      <p class="text-gray-600">₹1497</p>
+      <button class="mt-3 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800">Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- Product Detail -->
+  <section class="p-10 bg-white" id="product-detail">
+    <div class="grid md:grid-cols-2 gap-8">
+      <img src="images/socks.jpg" alt="Cotton Socks" class="rounded-xl w-full h-auto">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Stylish Jacket</h2>
+        <p class="text-gray-600 mb-4">
+          Premium quality jacket, comfortable fit, perfect for all seasons.
+        </p>
+        <p class="text-xl font-semibold mb-2">₹1999</p>
+        <button class="w-full bg-black text-white py-2 rounded-lg mb-4 hover:bg-gray-800">Add to Cart</button>
+        <h3 class="text-lg font-semibold mb-2">Size Guide</h3>
+        <ul class="list-disc list-inside text-gray-600">
+          <li>S - Chest 36”</li>
+          <li>M - Chest 38”</li>
+          <li>L - Chest 40”</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Checkout -->
+  <section class="p-10 bg-gray-100" id="checkout">
+    <h2 class="text-2xl font-bold mb-6">Checkout</h2>
+    <form class="grid gap-4 max-w-lg">
+      <input type="text" placeholder="Full Name" class="p-3 border rounded-lg">
+      <input type="text" placeholder="Phone Number" class="p-3 border rounded-lg">
+      <input type="text" placeholder="Shipping Address" class="p-3 border rounded-lg">
+      <input type="text" placeholder="City" class="p-3 border rounded-lg">
+      <input type="text" placeholder="Postal Code" class="p-3 border rounded-lg">
+      <button class="w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800">Place Order</button>
+    </form>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="p-10 bg-white text-center">
+    <h2 class="text-2xl font-bold mb-4">About Us</h2>
+    <p class="text-gray-600 max-w-2xl mx-auto">
+      Roza.In is a modern modest wear brand creating elegant, stylish, and comfortable outfits
+      for everyday and special occasions. Our mission is to make modest fashion accessible,
+      trendy, and empowering for everyone.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="p-10 bg-gray-100 text-center">
+    <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+    <p>Email: roza96@gmail.com</p>
+    <p>Phone: +91 9074295677, +91 9037678791</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white p-6 text-center">
+    <p>Copyright © 2025 ROZA.in</p>
+  </footer>
+
+</body>
+</html>
